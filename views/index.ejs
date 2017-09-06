@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.18.1/moment.min.js"></script>
+    <script src="javascripts/script.js"></script>
+  </head>
+  <body>
+    <div class="row" style="padding: 0px; margin: 0px;">
+        <div class="col s3 light-blue" style="height: 100vh; padding: 0px; margin: 0px;"></div>
+        <div class="col s9" style="padding-top: 10%;padding-left: 50px;">
+           <h2>Weather App</h2>
+           <form id="weatherForm">
+              <p>Enter location:</p>
+              <input type="text" id="weatherLocation" name="location"/>
+              <input id="submitLocation" class="btn" type="button" value="Submit"/>
+              <div id="showWeather" style="width: 800px;display:none;padding:20px;margin-top: 40px;" class="grey darken-2 white-text">
+                    <h5>The time is now <span id="showTime"></span>.</h5>
+                    <h5>The current temperature is <span id="showTemp"></span>&#8457;</h5>
+                    <h5><span id="showIcon"></span></h5>
+              </div>
+           </form>
+        </div>
+    </div>
+
+  </body>
+</html>
