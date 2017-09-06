@@ -1,6 +1,9 @@
 # weather-app
 Simple weather app constructed by the 5/8 crew 
 
+Demo:
+https://lg-weather-app.herokuapp.com/
+
 To run: 
 - clone repo
 - npm install
