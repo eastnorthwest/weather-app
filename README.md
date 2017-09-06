@@ -1,5 +1,13 @@
 # weather-app
-Simple weather app constructed by the 5/8 crew We have quite a few things we could add: 
+Simple weather app constructed by the 5/8 crew 
+
+To run: 
+- clone repo
+- npm install
+- npm start
+- Go to http://localhost:3000
+
+We have quite a few things we could add: 
 - Name of location in weather results, ie "Current weather conditions in ((place name))" 
 - Add support for zip codes 
 - Extract all inline css to classes 
