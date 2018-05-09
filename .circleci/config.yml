@@ -27,8 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
-      - run: npm install -g mocha
-      - run: npm install chai --save
+      - run: yarn add chai mocha --save
 
       - save_cache:
           paths:
